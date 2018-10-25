@@ -20,25 +20,30 @@
   grid-area: header;
   padding: 1rem 0;
   z-index: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   color: #dde2e3;
   background-color: #3c455c;
 }
 
-h1 {
-  font-size: 2rem;
-  text-align: center;
+label {
+  padding-left: 2rem;
 }
 
 /* CONTENT */
 .content {
   grid-area: content;
-  margin-top: 1rem;
+  font-family: "Raleway", sans-serif;
 }
 
 /* FOOTER */
 .footer {
   grid-area: footer;
   text-align: center;
+  padding-top: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: #dde2e3;
+  background-color: #3c455c;
 }
 
 /* NAVBAR */
@@ -76,4 +81,23 @@ nav ul li a:hover {
 
 input:checked ~ .menu-content {
   max-height: 300px;
+}
+
+/* HOME PAGE */
+#home {
+  width: 100%;
+  height: 95vh;
+  background-image: url(https://images.unsplash.com/photo-1521176563410-841cf0009251?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=46a8532399fdb6c11e2052d427196a12&auto=format&fit=crop&w=1395&q=80);
+  background-size: cover;
+}
+
+.headline {
+  position: absolute;
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  top: 70%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: #dde2e3;
 }
