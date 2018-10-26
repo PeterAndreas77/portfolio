@@ -27,6 +27,11 @@
   color: white;
 }
 
+section {
+  color: #3c455c;
+  margin-bottom: 1rem;
+}
+
 /* HEADER */
 .header {
   grid-area: header;
@@ -143,8 +148,8 @@ input:checked ~ .menu-content {
 
 .project-box {
   border: #dde2e3 solid 2px;
-  border-radius: 12px;
-  margin: 1rem 1.5rem;
+  border-radius: 24px;
+  margin: 2rem 1.5rem;
   padding-bottom: 1rem;
   background-color: white;
 }
@@ -159,13 +164,15 @@ input:checked ~ .menu-content {
 .project-img {
   display: block;
   margin: 1rem auto;
+  padding: 0 1rem;
+  height: 450px;
 }
 
 .project-desc {
   font-size: 1.2rem;
   font-family: "Raleway", sans-serif;
   padding: 0 1rem;
-  margin: 10px 0;
+  margin: 12px 0;
   font-weight: 600;
   line-height: 1.7;
 }
@@ -180,18 +187,18 @@ input:checked ~ .menu-content {
 }
 
 .skills i {
-  margin: 0 4px;
+  margin: 0 0.5rem;
 }
 
 .anchor-btn {
   margin: 1rem 1rem;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   text-decoration: none;
   color: #3c455c;
-  padding: 1rem;
+  padding: 0.5rem 0.8rem;
   border: #3c455c 2px solid;
   border-radius: 12px;
   box-shadow: 0 2px 4px #3c455c;
@@ -204,6 +211,6 @@ input:checked ~ .menu-content {
 }
 
 /* CONTACT PAGE */
-#wufoo-zdtb8b71t0djjj {
-  text-align: center;
+.contact-form {
+  padding: 1rem;
 }
