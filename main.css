@@ -136,7 +136,7 @@ p {
 /* HOME PAGE */
 #home {
   height: 95vh;
-  background-image: url(https://images.unsplash.com/photo-1521176563410-841cf0009251?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=46a8532399fdb6c11e2052d427196a12&auto=format&fit=crop&w=1395&q=80);
+  background-image: url(images/hero.jpg);
   background-size: cover;
 }
 
