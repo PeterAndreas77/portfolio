@@ -44,15 +44,9 @@ label {
   padding-left: 2rem;
 }
 
-/* CONTENT */
-.content {
-  grid-area: content;
-  font-family: "Raleway", sans-serif;
-}
-
 /* FOOTER */
 .footer {
-  grid-area: footer;
+  height: 2rem;
   text-align: center;
   padding-top: 0.5rem;
   font-family: "Montserrat", sans-serif;
@@ -109,14 +103,14 @@ input:checked ~ .menu-content {
   position: absolute;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  top: 70%;
+  top: 60%;
   left: 10%;
   transform: translateY(-50%);
   color: #fff;
 }
 
 .headline h1 {
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
 
 /* ABOUT PAGE */
