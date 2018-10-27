@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+.container {
+  max-width: 100vw;
+}
+
 /* HEADER & FOOTER */
 header,
 footer {
@@ -109,12 +113,16 @@ h3 {
   font-size: 1.75rem;
 }
 
+#projects h2 {
+  color: #fff;
+}
+
 /* SECTION */
 section {
   padding: 2rem 1rem 1.5rem 1rem;
   color: #1a2537;
   background-color: #fff;
-  width: 100vw;
+  width: 100%;
 }
 
 p {
@@ -152,6 +160,10 @@ p {
   background-color: #fff;
 }
 
+.project-box p {
+  text-align: center;
+}
+
 img {
   display: block;
   margin: 1rem auto;
@@ -160,4 +172,33 @@ img {
 
 .skills i {
   margin: 0 0.5rem;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-device-width: 768px) {
+  header {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    float: left;
+    width: 20vw;
+  }
+
+  li a {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+
+  .menu-content {
+    display: inline-block;
+    max-height: 3rem;
+  }
+
+  label {
+    display: none;
+  }
 }
