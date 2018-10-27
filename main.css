@@ -21,7 +21,7 @@
 }
 
 .odd {
-  color: #b5d0fb;
+  color: #b0c8f0;
 }
 
 section {
@@ -36,7 +36,7 @@ section {
   padding-top: 0.5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  color: #b5d0fb;
+  color: #b0c8f0;
   background-color: #1a2537;
 }
 
@@ -50,7 +50,7 @@ label {
   text-align: center;
   padding-top: 0.5rem;
   font-family: "Montserrat", sans-serif;
-  color: #b5d0fb;
+  color: #b0c8f0;
   background-color: #1a2537;
 }
 
@@ -70,14 +70,14 @@ nav ul li a {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #b5d0fb;
+  color: #b0c8f0;
   background-color: #1a2537;
 }
 
 nav ul li a:hover {
   cursor: pointer;
   color: #1a2537;
-  background-color: #b5d0fb;
+  background-color: #b0c8f0;
 }
 
 .menu-content {
