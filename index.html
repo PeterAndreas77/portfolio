@@ -16,8 +16,8 @@
     <div class="container">
 
         <!-- HEADER -->
-        <header class="header">
-            <nav class="collapsible">
+        <header>
+            <nav>
                 <input type="checkbox" id="menu">
                 <label for="menu"><i class="fas fa-2x fa-bars"></i></label>
                 <div class="menu-content">
@@ -27,6 +27,7 @@
                         <li><a href="#projects"><i class="fas fa-folder"></i> Projects</a></li>
                         <li><a href="#contact"><i class="fas fa-at"></i> Contact</a></li>
                     </ul>
+                    <div class="close"></div>
                 </div>
             </nav>
         </header>
@@ -40,24 +41,14 @@
             </section>
 
             <section id="about">
-                <h2 class="section-title"><i class="fab fa-dev"></i> About Me</h2>
-                <p class="about-pg">I am a junior web developer. A developer means that I love to code? Why you ask?
-                    Because I love the
-                    process of making an idea and turning it into code; using the latest frameworks, and solving the
-                    problems that comes
-                    from its development is extremely fun. I love seeing my creation comes to life on a web page, all
-                    the fonts, design, the
-                    functionality, and then connecting them to a backend that is just plain awesome.</p>
-                <p class="about-pg">I am a geek of all trades, I love everything from star wars to animes to video
-                    games. My biggest
-                    fandom is probably
-                    Monster Hunter. I love smacking virtual monster in the face with my oversized weapon with triple my
-                    body weight. I love
-                    science, space, and helping people, especially people who need help with computers. I love learning
-                    new cool stuff and
-                    reading books on algorithms and mathematics. My new passion is body weight exercise that is in the
-                    process of turning
-                    into a habit.</p>
+                <h2><i class="fab fa-dev"></i> About Me</h2>
+                <p>I am an aspiring full stack developer. I love the process of turning an idea from paper into code,
+                    and solving problems that comes from development is extremely fun. I love seeing my creation comes
+                    to life on a web page, all the fonts, design, the functionality, and then connecting them to a
+                    backend that is just plain awesome.</p>
+                <p>I love science, space, and helping people, especially people who need help with computers. I love
+                    learning about new technology and using them in my projects. My new passion is body weight exercise
+                    that I will turn into a habit.</p>
                 <div class="btn-group">
                     <a href="https://www.linkedin.com/in/andreas-soedharto-617934145/" target="_blank" class="anchor-btn">
                         <i class="fab fa-linkedin"></i> linkedin</a>
@@ -67,11 +58,11 @@
             </section>
 
             <section id="projects">
-                <h2 class="section-title odd"><i class="far fa-file-code"></i> My Projects</h2>
+                <h2><i class="far fa-file-code"></i> My Projects</h2>
 
                 <div class="project-box">
-                    <h3 class="project-title">Caritas Auxilium</h3>
-                    <img class="project-img" src="images/caritas-srcshot.png" alt="caritas-project">
+                    <h3>Caritas Auxilium</h3>
+                    <img src="images/caritas-srcshot.png" alt="caritas-project">
                     <div class="skills">
                         <i class="fab fa-2x fa-html5"></i>
                         <i class="fab fa-2x fa-css3-alt"></i>
@@ -79,9 +70,8 @@
                         <i class="fab fa-2x fa-node-js"></i>
                         <i class="fab fa-2x fa-react"></i>
                     </div>
-                    <p class="project-desc">Donation doesn't need to be hard. This app pull data from ReliefWeb API, a
-                        reiliable and timely major humanitarian reports trusted by the United Nations, so you can
-                        donate in peace.</p>
+                    <p>Making a donation doesn't need to be hard. Make informed decision using the trusted ReliefWeb
+                        API and store your donation records with this app.</p>
                     <div class="btn-group">
                         <a href="https://caritas-react.herokuapp.com/" target="_blank" class="anchor-btn">live demo</a>
                         <a href="https://github.com/PeterAndreas77/caritas-auxilium-react" target="_blank" class="anchor-btn">view
@@ -90,15 +80,15 @@
                 </div>
 
                 <div class="project-box">
-                    <h3 class="project-title">Bird's Nest</h3>
-                    <img class="project-img" src="images/birdsnest-scrshot.png" alt="birdsnest-project">
+                    <h3>Bird's Nest</h3>
+                    <img src="images/birdsnest-scrshot.png" alt="birdsnest-project">
                     <div class="skills">
                         <i class="fab fa-2x fa-html5"></i>
                         <i class="fab fa-2x fa-css3-alt"></i>
                         <i class="fab fa-2x fa-js-square"></i>
                         <i class="fab fa-2x fa-node-js"></i>
                     </div>
-                    <p class="project-desc">Have somewhere to go? This app will help you plan and log your travels.</p>
+                    <p>Have somewhere to go? This app will help you plan and log your travels.</p>
                     <div class="btn-group">
                         <a href="https://birds-nest.herokuapp.com/" target="_blank" class="anchor-btn">live demo</a>
                         <a href="https://github.com/PeterAndreas77/birds-nest-node-capstone" target="_blank" class="anchor-btn">view
@@ -107,14 +97,14 @@
                 </div>
 
                 <div class="project-box">
-                    <h3 class="project-title">Astro Card</h3>
-                    <img class="project-img" src="images/astro-scrshot.png" alt="astro-project">
+                    <h3>Astro Card</h3>
+                    <img src="images/astro-scrshot.png" alt="astro-project">
                     <div class="skills">
                         <i class="fab fa-2x fa-html5"></i>
                         <i class="fab fa-2x fa-css3-alt"></i>
                         <i class="fab fa-2x fa-js-square"></i>
                     </div>
-                    <p class="project-desc">A fun project to learn about astronomy. Pulling data from NASA's picture of
+                    <p>A fun project to learn about astronomy. Pulling data from NASA's picture of
                         the day API, read current astronomy discoveries or events.</p>
                     <div class="btn-group">
                         <a href="https://peterandreas77.github.io/astro-card/" target="_blank" class="anchor-btn">live
@@ -126,7 +116,7 @@
             </section>
 
             <section id="contact">
-                <h2 class="section-title"><i class="fas fa-file-signature"></i> Contact Me</h2>
+                <h2><i class="fas fa-file-signature"></i> Contact Me</h2>
                 <div class="contact-form">
                     <div id="wufoo-zdtb8b71t0djjj" role="form">
                         Fill out my <a href="https://peterandreas77.wufoo.com/forms/zdtb8b71t0djjj">online form</a>.
@@ -136,7 +126,7 @@
         </div>
 
         <!-- FOOTER -->
-        <footer class="footer">
+        <footer>
             <div>2018 &copy; Andreas Soedharto</div>
         </footer>
     </div>
