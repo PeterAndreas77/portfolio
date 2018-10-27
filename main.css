@@ -24,11 +24,11 @@
 }
 
 .odd {
-  color: white;
+  color: #b5d0fb;
 }
 
 section {
-  color: #3c455c;
+  color: #1a2537;
   margin-bottom: 1rem;
 }
 
@@ -39,8 +39,8 @@ section {
   padding-top: 0.5rem;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  color: #dde2e3;
-  background-color: #3c455c;
+  color: #b5d0fb;
+  background-color: #1a2537;
 }
 
 label {
@@ -59,8 +59,8 @@ label {
   text-align: center;
   padding-top: 0.5rem;
   font-family: "Montserrat", sans-serif;
-  color: #dde2e3;
-  background-color: #3c455c;
+  color: #b5d0fb;
+  background-color: #1a2537;
 }
 
 /* NAVBAR */
@@ -79,14 +79,14 @@ nav ul li a {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
-  color: #dde2e3;
-  background-color: #3c455c;
+  color: #b5d0fb;
+  background-color: #1a2537;
 }
 
 nav ul li a:hover {
   cursor: pointer;
-  color: #3c455c;
-  background-color: #dde2e3;
+  color: #1a2537;
+  background-color: #b5d0fb;
 }
 
 .menu-content {
@@ -115,15 +115,11 @@ input:checked ~ .menu-content {
   top: 70%;
   left: 10%;
   transform: translateY(-50%);
-  color: #dde2e3;
+  color: #fff;
 }
 
 .headline h1 {
   font-size: 2rem;
-}
-
-.headline h2 {
-  font-size: 2.2rem;
 }
 
 /* ABOUT PAGE */
@@ -142,16 +138,15 @@ input:checked ~ .menu-content {
 /* PROJECT PAGE */
 #projects {
   padding: 1rem 0;
-  background-color: #3c455c;
-  color: #3c455c;
+  background-color: #1a2537;
+  color: #1a2537;
 }
 
 .project-box {
-  border: #dde2e3 solid 2px;
   border-radius: 24px;
   margin: 2rem 1.5rem;
   padding-bottom: 1rem;
-  background-color: white;
+  background-color: #fff;
 }
 
 .project-title {
@@ -197,16 +192,16 @@ input:checked ~ .menu-content {
   font-size: 1.2rem;
   text-transform: uppercase;
   text-decoration: none;
-  color: #3c455c;
+  color: #1a2537;
   padding: 0.5rem 0.8rem;
-  border: #3c455c 2px solid;
+  border: #1a2537 2px solid;
   border-radius: 12px;
-  box-shadow: 0 2px 4px #3c455c;
+  box-shadow: 0 2px 4px #1a2537;
 }
 
 .anchor-btn:hover {
-  background-color: #3c455c;
-  color: white;
+  background-color: #1a2537;
+  color: #fff;
   box-shadow: none;
 }
 
