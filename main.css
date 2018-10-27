@@ -10,9 +10,6 @@
   max-width: 100%;
   height: 100vh;
   margin: 0 auto;
-  display: grid;
-  grid-template-rows: 5vh 1fr 2rem;
-  grid-template-areas: "header" "content" "footer";
 }
 
 .section-title {
@@ -102,7 +99,7 @@ input:checked ~ .menu-content {
 
 /* HOME PAGE */
 #home {
-  width: 100%;
+  width: 100vw;
   height: 95vh;
   background-image: url(https://images.unsplash.com/photo-1521176563410-841cf0009251?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=46a8532399fdb6c11e2052d427196a12&auto=format&fit=crop&w=1395&q=80);
   background-size: cover;
@@ -124,6 +121,7 @@ input:checked ~ .menu-content {
 
 /* ABOUT PAGE */
 #about {
+  width: 100vw;
   padding: 1rem;
 }
 
@@ -137,6 +135,7 @@ input:checked ~ .menu-content {
 
 /* PROJECT PAGE */
 #projects {
+  width: 100vw;
   padding: 1rem 0;
   background-color: #1a2537;
   color: #1a2537;
@@ -160,7 +159,7 @@ input:checked ~ .menu-content {
   display: block;
   margin: 1rem auto;
   padding: 0 1rem;
-  height: 450px;
+  height: 50vw;
 }
 
 .project-desc {
@@ -207,5 +206,6 @@ input:checked ~ .menu-content {
 
 /* CONTACT PAGE */
 .contact-form {
+  width: 100vw;
   padding: 1rem;
 }
