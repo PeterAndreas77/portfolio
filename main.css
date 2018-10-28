@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -58,6 +59,8 @@ nav ul li a:hover {
 .menu-content {
   max-height: 0;
   overflow: hidden;
+  -webkit-transition: max-height 0.5s ease-in;
+  -o-transition: max-height 0.5s ease-in;
   transition: max-height 0.5s ease-in;
 }
 
@@ -77,12 +80,14 @@ input:checked ~ .menu-content {
   padding: 0.5rem 0.8rem;
   border: #1a2537 2px solid;
   border-radius: 12px;
+  -webkit-box-shadow: 0 2px 4px #1a2537;
   box-shadow: 0 2px 4px #1a2537;
 }
 
 .anchor-btn:hover {
   background-color: #1a2537;
   color: #fff;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -144,6 +149,8 @@ p {
   position: absolute;
   top: 60%;
   left: 10%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   color: #fff;
 }
