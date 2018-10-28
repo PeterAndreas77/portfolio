@@ -210,3 +210,9 @@ img {
     display: none;
   }
 }
+
+@media only screen and (max-device-width: 320px) {
+  .anchor-btn {
+    font-size: 0.6rem;
+  }
+}
