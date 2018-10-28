@@ -6,6 +6,7 @@ $(document).ready(() => {
   $(".content").on("click", () => {
     if (!checked && screen.width < 768) {
       $(".menu-content").css("max-height", 0);
+      $("#menu").prop("checked", false);
     }
   });
 });

@@ -6,7 +6,7 @@
 }
 
 .container {
-  max-width: 100vw;
+  width: 100vw;
 }
 
 /* HEADER & FOOTER */
@@ -177,6 +177,7 @@ img {
 /* SNOW */
 .snow {
   position: absolute;
+  top: 7%;
   left: 0;
   width: 100%;
   height: 95%;
@@ -222,9 +223,17 @@ img {
   }
 }
 
-@media (max-device-width: 320px) {
+@media (max-device-width: 375px) {
+  .project-box {
+    padding: 0.5rem;
+  }
+
+  .btn-group {
+    margin: 0;
+  }
+
   .anchor-btn {
     display: inline-block;
-    font-size: 0.6rem;
+    font-size: 0.65rem;
   }
 }
