@@ -189,6 +189,16 @@ img {
     padding: 0;
   }
 
+  .headline {
+    top: 20%;
+    right: 20%;
+  }
+
+  .project-box {
+    width: 90%;
+    margin: 1.5rem auto;
+  }
+
   li {
     float: left;
     width: 20vw;
