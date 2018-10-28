@@ -174,6 +174,14 @@ img {
   margin: 0 0.5rem;
 }
 
+/* SNOW */
+.snow {
+  position: absolute;
+  width: 100%;
+  height: 95%;
+  z-index: 1;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (min-device-width: 768px) {
   header {
