@@ -230,7 +230,7 @@ img {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .project-box {
     padding: 0.5rem;
   }
