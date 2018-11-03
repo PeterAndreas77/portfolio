@@ -155,6 +155,30 @@ p {
   color: #fff;
 }
 
+/* ABOUT-PAGE */
+.my-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.skills {
+  width: 90%;
+  text-align: center;
+  margin: 1rem auto 2rem auto;
+  padding-bottom: 1rem;
+  border: 2px solid #1a2537;
+  border-radius: 12px;
+}
+
+.skills h3 {
+  margin: 1rem 0;
+}
+
+.skills i {
+  margin: 8px;
+}
+
 /* PROJECT PAGE */
 #projects {
   background-color: #1a2537;
@@ -177,13 +201,7 @@ img {
   width: 50vw;
 }
 
-.my-photo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-}
-
-.skills i {
+.tech-used i {
   margin: 0 0.5rem;
 }
 
