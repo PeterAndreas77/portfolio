@@ -1,196 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Raleway"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
     <title>Andreas Soedharto's Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="container">
+      <!-- HEADER -->
+      <header role="banner">
+        <nav role="navigation">
+          <input type="checkbox" id="menu" />
+          <label for="menu"><i class="fas fa-2x fa-bars"></i></label>
+          <div class="menu-content">
+            <ul>
+              <li>
+                <a href="#home"><i class="fas fa-home"></i> Home</a>
+              </li>
+              <li>
+                <a href="#about"><i class="fas fa-user"></i> About</a>
+              </li>
+              <li>
+                <a href="#projects"><i class="fas fa-folder"></i> Projects</a>
+              </li>
+              <li>
+                <a href="#contact"><i class="fas fa-at"></i> Contact</a>
+              </li>
+            </ul>
+            <div class="close"></div>
+          </div>
+        </nav>
+      </header>
 
-        <!-- HEADER -->
-        <header role="banner">
-            <nav role="navigation">
-                <input type="checkbox" id="menu">
-                <label for="menu"><i class="fas fa-2x fa-bars"></i></label>
-                <div class="menu-content">
-                    <ul>
-                        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
-                        <li><a href="#projects"><i class="fas fa-folder"></i> Projects</a></li>
-                        <li><a href="#contact"><i class="fas fa-at"></i> Contact</a></li>
-                    </ul>
-                    <div class="close"></div>
-                </div>
-            </nav>
-        </header>
+      <!-- CONTENT -->
+      <div class="content" role="main">
+        <!-- HOME PAGE -->
+        <section id="home">
+          <canvas class="snow"></canvas>
+          <div class="headline">
+            <h1>
+              Andreas Soedharto <br />
+              Web Developer
+            </h1>
+          </div>
+        </section>
 
-        <!-- CONTENT -->
-        <div class="content" role="main">
+        <!-- ABOUT PAGE -->
+        <section id="about" role="contentinfo">
+          <h2><i class="fab fa-dev"></i> About Me</h2>
+          <img
+            class="my-photo"
+            src="images/my-photo.jpg"
+            alt="andreas-soedharto"
+          />
+          <p>
+            I am an aspiring full stack developer. I love the process of turning
+            an idea from paper into code, and solving problems that comes from
+            development is extremely fun. I love seeing my creation comes to
+            life on a web page, all the fonts, design, the functionality, and
+            then connecting them to a backend that is just plain awesome.
+          </p>
+          <p>
+            I love science, space, and helping people, especially people who
+            need help with computers. I love learning about new technology and
+            using them in my projects. My new passion is body weight exercise
+            that I will turn into a habit.
+          </p>
+          <div class="skills">
+            <h3>SKILLS</h3>
+            <i class="fab fa-html5"></i>HTML5
+            <i class="fab fa-css3-alt"></i>CSS3
+            <i class="fab fa-js-square"></i>JAVASCRIPT
+            <i class="fab fa-node-js"></i>NODE <i class="fab fa-react"></i>REACT
+            <i class="fas fa-code"></i> EXPRESS
+            <i class="fas fa-database"></i>MONGODB
+            <i class="fas fa-vials"></i>MOCHA, CHAI, JEST
+          </div>
+          <div class="btn-group">
+            <a
+              href="https://www.linkedin.com/in/andreas-soedharto-617934145/"
+              target="_blank"
+              class="anchor-btn"
+            >
+              <i class="fab fa-linkedin"></i> linkedin</a
+            >
+            <a
+              href="https://github.com/PeterAndreas77"
+              target="_blank"
+              class="anchor-btn"
+            >
+              <i class="fab fa-github"></i> github</a
+            >
+          </div>
+        </section>
 
-            <!-- HOME PAGE -->
-            <section id="home">
-                <canvas class="snow"></canvas>
-                <div class="headline">
-                    <h1>Andreas Soedharto
-                        <br>
-                        Web Developer</h1>
-                </div>
-            </section>
+        <!-- PROJECTS PAGE -->
+        <section id="projects" role="contentinfo">
+          <h2><i class="far fa-file-code"></i> My Projects</h2>
 
-            <!-- ABOUT PAGE -->
-            <section id="about" role="contentinfo">
-                <h2><i class="fab fa-dev"></i> About Me</h2>
-                <img class="my-photo" src="images/my-photo.jpg" alt="andreas-soedharto">
-                <p>I am an aspiring full stack developer. I love the process of turning an idea from paper into code,
-                    and solving problems that comes from development is extremely fun. I love seeing my creation comes
-                    to life on a web page, all the fonts, design, the functionality, and then connecting them to a
-                    backend that is just plain awesome.</p>
-                <p>I love science, space, and helping people, especially people who need help with computers. I love
-                    learning about new technology and using them in my projects. My new passion is body weight exercise
-                    that I will turn into a habit.</p>
-                <div class="skills">
-                    <h3>SKILLS</h3>
-                    <i class="fab fa-html5"></i>HTML5
-                    <i class="fab fa-css3-alt"></i>CSS3
-                    <i class="fab fa-js-square"></i>JAVASCRIPT
-                    <i class="fab fa-node-js"></i>NODE
-                    <i class="fab fa-react"></i>REACT
-                    <i class="fas fa-code"></i> EXPRESS
-                    <i class="fas fa-database"></i>MONGODB
-                    <i class="fas fa-vials"></i>MOCHA, CHAI, JEST
-                </div>
-                <div class="btn-group">
-                    <a href="https://www.linkedin.com/in/andreas-soedharto-617934145/" target="_blank" class="anchor-btn">
-                        <i class="fab fa-linkedin"></i> linkedin</a>
-                    <a href="https://github.com/PeterAndreas77" target="_blank" class="anchor-btn">
-                        <i class="fab fa-github"></i> github</a>
-                </div>
-            </section>
+          <div class="project-box">
+            <h3>Caritas Auxilium</h3>
+            <img src="images/caritas-scrshot.png" alt="caritas-project" />
+            <div class="tech-used">
+              <i class="fab fa-2x fa-html5"></i>
+              <i class="fab fa-2x fa-css3-alt"></i>
+              <i class="fab fa-2x fa-js-square"></i>
+              <i class="fab fa-2x fa-node-js"></i>
+              <i class="fab fa-2x fa-react"></i>
+            </div>
+            <p>
+              Making a donation doesn't need to be hard. Make informed decision
+              using the ReliefWeb API and store your donations with this app.
+            </p>
+            <div class="btn-group">
+              <a
+                href="https://caritas-react.herokuapp.com/"
+                target="_blank"
+                class="anchor-btn"
+                >live demo <i class="fas fa-arrow-right"></i
+              ></a>
+              <a
+                href="https://github.com/PeterAndreas77/caritas-auxilium-react"
+                target="_blank"
+                class="anchor-btn"
+                ><i class="fas fa-code"></i> view code</a
+              >
+            </div>
+          </div>
 
-            <!-- PROJECTS PAGE -->
-            <section id="projects" role="contentinfo">
-                <h2><i class="far fa-file-code"></i> My Projects</h2>
+          <div class="project-box">
+            <h3>Bird's Nest</h3>
+            <img src="images/birds-scrshot.png" alt="birdsnest-project" />
+            <div class="tech-used">
+              <i class="fab fa-2x fa-html5"></i>
+              <i class="fab fa-2x fa-css3-alt"></i>
+              <i class="fab fa-2x fa-js-square"></i>
+              <i class="fab fa-2x fa-node-js"></i>
+            </div>
+            <p>
+              Have somewhere to go? This app will help you plan and log your
+              travels.
+            </p>
+            <div class="btn-group">
+              <a
+                href="https://birds-nest.herokuapp.com/"
+                target="_blank"
+                class="anchor-btn"
+                >live demo <i class="fas fa-arrow-right"></i
+              ></a>
+              <a
+                href="https://github.com/PeterAndreas77/birds-nest-node-capstone"
+                target="_blank"
+                class="anchor-btn"
+                ><i class="fas fa-code"></i> view code</a
+              >
+            </div>
+          </div>
 
-                <div class="project-box">
-                    <h3>Caritas Auxilium</h3>
-                    <img src="images/caritas-scrshot.png" alt="caritas-project">
-                    <div class="tech-used">
-                        <i class="fab fa-2x fa-html5"></i>
-                        <i class="fab fa-2x fa-css3-alt"></i>
-                        <i class="fab fa-2x fa-js-square"></i>
-                        <i class="fab fa-2x fa-node-js"></i>
-                        <i class="fab fa-2x fa-react"></i>
-                    </div>
-                    <p>Making a donation doesn't need to be hard. Make informed decision using the ReliefWeb API and
-                        store your donations with this app.</p>
-                    <div class="btn-group">
-                        <a href="https://caritas-react.herokuapp.com/" target="_blank" class="anchor-btn">live demo <i
-                                class="fas fa-arrow-right"></i></a>
-                        <a href="https://github.com/PeterAndreas77/caritas-auxilium-react" target="_blank" class="anchor-btn"><i
-                                class="fas fa-code"></i> view
-                            code</a>
-                    </div>
-                </div>
+          <div class="project-box">
+            <h3>Astro Card</h3>
+            <img src="images/astro-scrshot.png" alt="astro-project" />
+            <div class="tech-used">
+              <i class="fab fa-2x fa-html5"></i>
+              <i class="fab fa-2x fa-css3-alt"></i>
+              <i class="fab fa-2x fa-js-square"></i>
+            </div>
+            <p>
+              A fun project to learn about astronomy. Pulling data from NASA's
+              picture of the day API, read current astronomy discoveries or
+              events.
+            </p>
+            <div class="btn-group">
+              <a
+                href="https://peterandreas77.github.io/astro-card/"
+                target="_blank"
+                class="anchor-btn"
+                >live demo <i class="fas fa-arrow-right"></i
+              ></a>
+              <a
+                href="https://github.com/PeterAndreas77/astro-card"
+                target="_blank"
+                class="anchor-btn"
+                ><i class="fas fa-code"></i> view code</a
+              >
+            </div>
+          </div>
+        </section>
 
-                <div class="project-box">
-                    <h3>Bird's Nest</h3>
-                    <img src="images/birds-scrshot.png" alt="birdsnest-project">
-                    <div class="tech-used">
-                        <i class="fab fa-2x fa-html5"></i>
-                        <i class="fab fa-2x fa-css3-alt"></i>
-                        <i class="fab fa-2x fa-js-square"></i>
-                        <i class="fab fa-2x fa-node-js"></i>
-                    </div>
-                    <p>Have somewhere to go? This app will help you plan and log your travels.</p>
-                    <div class="btn-group">
-                        <a href="https://birds-nest.herokuapp.com/" target="_blank" class="anchor-btn">live demo <i
-                                class="fas fa-arrow-right"></i></a>
-                        <a href="https://github.com/PeterAndreas77/birds-nest-node-capstone" target="_blank" class="anchor-btn"><i
-                                class="fas fa-code"></i> view
-                            code</a>
-                    </div>
-                </div>
+        <!-- CONTACT PAGE -->
+        <section id="contact" role="contentinfo">
+          <h2><i class="fas fa-file-signature"></i> Contact Me</h2>
+          <div class="contact-form">
+            <div id="wufoo-zdtb8b71t0djjj" role="form">
+              Fill out my
+              <a href="https://peterandreas77.wufoo.com/forms/zdtb8b71t0djjj"
+                >online form</a
+              >.
+            </div>
+          </div>
+        </section>
+      </div>
 
-                <div class="project-box">
-                    <h3>Astro Card</h3>
-                    <img src="images/astro-scrshot.png" alt="astro-project">
-                    <div class="tech-used">
-                        <i class="fab fa-2x fa-html5"></i>
-                        <i class="fab fa-2x fa-css3-alt"></i>
-                        <i class="fab fa-2x fa-js-square"></i>
-                    </div>
-                    <p>A fun project to learn about astronomy. Pulling data from NASA's picture of
-                        the day API, read current astronomy discoveries or events.</p>
-                    <div class="btn-group">
-                        <a href="https://peterandreas77.github.io/astro-card/" target="_blank" class="anchor-btn">live
-                            demo <i class="fas fa-arrow-right"></i></a>
-                        <a href="https://github.com/PeterAndreas77/astro-card" target="_blank" class="anchor-btn"><i
-                                class="fas fa-code"></i> view
-                            code</a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- CONTACT PAGE -->
-            <section id="contact" role="contentinfo">
-                <h2><i class="fas fa-file-signature"></i> Contact Me</h2>
-                <div class="contact-form">
-                    <div id="wufoo-zdtb8b71t0djjj" role="form">
-                        Fill out my <a href="https://peterandreas77.wufoo.com/forms/zdtb8b71t0djjj">online form</a>.
-                    </div>
-                </div>
-            </section>
-        </div>
-
-        <!-- FOOTER -->
-        <footer role="contentinfo">
-            <div>2018 &copy; Andreas Soedharto</div>
-        </footer>
+      <!-- FOOTER -->
+      <footer role="contentinfo">
+        <div>2018 &copy; Andreas Soedharto</div>
+      </footer>
     </div>
 
     <!-- SCRIPTS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script type="text/javascript">var zdtb8b71t0djjj; (function (d, t) {
-            var s = d.createElement(t), options = {
-                'userName': 'peterandreas77',
-                'formHash': 'zdtb8b71t0djjj',
-                'autoResize': true,
-                'height': '520',
-                'async': true,
-                'host': 'wufoo.com',
-                'header': 'show',
-                'ssl': true
-            };
-            s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-            s.onload = s.onreadystatechange = function () {
-                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-                try { zdtb8b71t0djjj = new WufooForm(); zdtb8b71t0djjj.initialize(options); zdtb8b71t0djjj.display(); } catch (e) { }
-            };
-            var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-        })(document, 'script');</script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript">
+      var zdtb8b71t0djjj;
+      (function(d, t) {
+        var s = d.createElement(t),
+          options = {
+            userName: "peterandreas77",
+            formHash: "zdtb8b71t0djjj",
+            autoResize: true,
+            height: "520",
+            async: true,
+            host: "wufoo.com",
+            header: "show",
+            ssl: true
+          };
+        s.src =
+          ("https:" == d.location.protocol ? "https://" : "http://") +
+          "www.wufoo.com/scripts/embed/form.js";
+        s.onload = s.onreadystatechange = function() {
+          var rs = this.readyState;
+          if (rs) if (rs != "complete") if (rs != "loaded") return;
+          try {
+            zdtb8b71t0djjj = new WufooForm();
+            zdtb8b71t0djjj.initialize(options);
+            zdtb8b71t0djjj.display();
+          } catch (e) {}
+        };
+        var scr = d.getElementsByTagName(t)[0],
+          par = scr.parentNode;
+        par.insertBefore(s, scr);
+      })(document, "script");
+    </script>
     <!-- Begin Inspectlet Asynchronous Code -->
     <script type="text/javascript">
-        (function () {
-            window.__insp = window.__insp || [];
-            __insp.push(['wid', 1910391846]);
-            var ldinsp = function () {
-                if (typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1910391846&r=' + Math.floor(new Date().getTime() / 3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x);
-            };
-            setTimeout(ldinsp, 0);
-        })();
+      (function() {
+        window.__insp = window.__insp || [];
+        __insp.push(["wid", 1910391846]);
+        var ldinsp = function() {
+          if (typeof window.__inspld != "undefined") return;
+          window.__inspld = 1;
+          var insp = document.createElement("script");
+          insp.type = "text/javascript";
+          insp.async = true;
+          insp.id = "inspsync";
+          insp.src =
+            ("https:" == document.location.protocol ? "https" : "http") +
+            "://cdn.inspectlet.com/inspectlet.js?wid=1910391846&r=" +
+            Math.floor(new Date().getTime() / 3600000);
+          var x = document.getElementsByTagName("script")[0];
+          x.parentNode.insertBefore(insp, x);
+        };
+        setTimeout(ldinsp, 0);
+      })();
     </script>
     <!-- End Inspectlet Asynchronous Code -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-129261638-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-129261638-1");
+    </script>
+
     <script src="snow.js"></script>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
