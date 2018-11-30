@@ -127,13 +127,15 @@ section {
   padding: 2rem 1rem 1.5rem 1rem;
   color: #1a2537;
   background-color: #fff;
+  margin: 0 auto;
   width: 100%;
 }
 
 p {
   font-size: 1.2rem;
   font-family: "Raleway", sans-serif;
-  margin: 10px 0;
+  max-width: 960px;
+  margin: 10px auto;
   font-weight: 600;
   line-height: 1.7;
 }
@@ -163,7 +165,7 @@ p {
 }
 
 .skills {
-  width: 90%;
+  max-width: 960px;
   text-align: center;
   margin: 1rem auto 2rem auto;
   padding-bottom: 1rem;
@@ -185,6 +187,7 @@ p {
 }
 
 .project-box {
+  max-width: 960px;
   border-radius: 24px;
   margin: 1.5rem 0;
   padding: 1rem;
@@ -198,11 +201,16 @@ p {
 img {
   display: block;
   margin: 1rem auto;
-  width: 50vw;
+  height: 50vh;
+  width: 50%;
 }
 
 .tech-used i {
   margin: 0 0.5rem;
+}
+
+#contact {
+  max-width: 960px;
 }
 
 /* SNOW */
@@ -228,13 +236,12 @@ img {
   }
 
   .project-box {
-    width: 90%;
     margin: 1.5rem auto;
   }
 
   li {
     float: left;
-    width: 20vw;
+    width: 24vw;
   }
 
   li a {
@@ -261,6 +268,10 @@ img {
 
   .btn-group {
     margin: 0;
+  }
+
+  img {
+    height: 30vh;
   }
 
   .anchor-btn {
