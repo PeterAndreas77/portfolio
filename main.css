@@ -271,6 +271,14 @@ img {
     background-image: url("images/my-headshot.jpg");
     background-size: cover;
   }
+
+  .my-name {
+    font-size: 10rem;
+  }
+  
+  .my-title {
+    font-size: 5rem;
+  }
 }
 
 @media (max-width: 450px) {
