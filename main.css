@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "dubielplainregular";
+  src: url("dubiel-webfont.woff2") format("woff2"),
+    url("dubiel-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .container {
   width: 100vw;
 }
@@ -105,13 +113,13 @@ h3 {
 }
 
 .my-name {
-  font-size: 5rem;
-  font-family: "Qwigley";
+  font-size: 6rem;
+  font-family: "dubielplainregular";
 }
 
 .my-title {
-  font-size: 2.2rem;
-  font-family: "Open Sans";
+  font-size: 2.5rem;
+  font-family: "dubielplainregular";
 }
 
 h2 {
@@ -154,8 +162,8 @@ p {
 
 .headline {
   position: absolute;
-  top: 50%;
-  left: 25%;
+  top: 40%;
+  left: 20%;
   color: #fff;
 }
 
@@ -229,6 +237,22 @@ img {
 }
 
 /* MEDIA QUERIES */
+@media (min-width: 1350px) {
+  .my-name {
+    font-size: 10rem;
+  }
+
+  .my-title {
+    padding-left: 50%;
+    font-size: 5rem;
+  }
+
+  .headline {
+    left: 20%;
+    right: 0;
+  }
+}
+
 @media (min-width: 768px) {
   header {
     margin: 0;
@@ -237,7 +261,6 @@ img {
 
   .headline {
     top: 30%;
-    right: 10%;
   }
 
   .project-box {
@@ -273,11 +296,12 @@ img {
   }
 
   .my-name {
-    font-size: 10rem;
+    font-size: 8rem;
   }
-  
+
   .my-title {
-    font-size: 5rem;
+    padding-left: 15%;
+    font-size: 4rem;
   }
 }
 
